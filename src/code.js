@@ -92,7 +92,7 @@ function restart(){
 
 
 function place_hit(shape, position){
-    document.getElementById("box" + String(position)).style.background = "url(./src/assets/" + shape + ".png) no-repeat center"
+    document.getElementById("box" + String(position)).style.background = "url(./assets/" + shape + ".png) no-repeat center"
     if(shape == 'circle'){
         document.getElementById("box" + String(position)).style.backgroundSize = "70px"
     }
@@ -334,11 +334,11 @@ function click_animation(){
         document.getElementById("box" + String(i)).style.top = old_top + 2 + "px"
 
         if(grid[i] == 'o'){
-            document.getElementById("box" + String(i)).style.background = "url(./src/assets/circle.png) no-repeat center"
+            document.getElementById("box" + String(i)).style.background = "url(./assets/circle.png) no-repeat center"
             document.getElementById("box" + String(i)).style.backgroundSize = "72px"
         }
         else if(grid[i] == 'x'){
-            document.getElementById("box" + String(i)).style.background = "url(./src/assets/cross.png) no-repeat center"
+            document.getElementById("box" + String(i)).style.background = "url(./assets/cross.png) no-repeat center"
             document.getElementById("box" + String(i)).style.backgroundSize = "59px"
         }
         
@@ -364,11 +364,11 @@ function click_animation(){
     
     
             if(grid[i] == 'o'){
-                document.getElementById("box" + String(i)).style.background = "url(./src/assets/circle.png) no-repeat center"
+                document.getElementById("box" + String(i)).style.background = "url(./assets/circle.png) no-repeat center"
                 document.getElementById("box" + String(i)).style.backgroundSize = "70px"
             }
             else if(grid[i] == 'x'){
-                document.getElementById("box" + String(i)).style.background = "url(./src/assets/cross.png) no-repeat center"
+                document.getElementById("box" + String(i)).style.background = "url(./assets/cross.png) no-repeat center"
                 document.getElementById("box" + String(i)).style.backgroundSize = "57px"
             }
     
