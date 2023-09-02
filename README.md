@@ -9,5 +9,11 @@ Impossible TicTacToe
 "Play Tic-Tac-Toe against a nearly unbeatable bot."
 
 <br undefined>
+<br undefined>
+<br undefined>
+<br undefined>
+<br undefined>
+
+*Last modified : february 2022*
 
 </div>
