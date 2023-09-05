@@ -12,7 +12,4 @@
 
 Game developed using HTML, CSS, and JavaScript.
 
-<br>
-<br>
-
 </div>
